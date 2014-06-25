@@ -1,0 +1,11 @@
+.well
+	.row
+		.col-lg-2.text-center
+			.row
+				= tweet.user.name
+			.row
+				= image_tag (tweet.user.profile_image_url)
+		.col-lg-10
+			%p= highlight(tweet.text, params[:q])
+			= user_location(tweet.user)
+			%small= distance_of_time_in_words_or_absolute tweet.created_at

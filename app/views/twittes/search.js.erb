@@ -1,0 +1,2 @@
+$('.list-all-tweets').html('<%= escape_javascript render(:partial => "tweet", :collection => @twittes) %>')
+history.pushState(null, null, '<%= request.url %>');
