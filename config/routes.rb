@@ -45,7 +45,7 @@ Rails.application.routes.draw do
   #     post 'toggle'
   #   end
   root 'twittes#index'
-  resources :twittes, only: [:index] do
+  resources :twittes, only: [] do
     get 'search', on: :collection
   end
   #   resources :photos, concerns: :toggleable
