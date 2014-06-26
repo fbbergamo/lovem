@@ -1,9 +1,8 @@
 == README
 
 rename secrets.yml.example to secrets.yml and fill using the twitter api keys
-run bundle install
-run rails s
-
+ run bundle install
+ run rails s
 tests 
-	rake test 
+ rake test 
 
