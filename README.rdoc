@@ -1,6 +1,6 @@
 == README
 
-rename secrets.yml.example to secrets.yml.
+rename "secrets.yml.example" to "secrets.yml".
 
 Fill using the twitter api keys.
 
